@@ -13,6 +13,7 @@ app.get('/hello/:name/:age', (req, res) => {
     res.send(req.params.name + " " + req.params.age);
 })
 console.log('This is main')
+console.log("hello there from dev");
 
 app.listen(PORT, () => {
     console.log("server is running at http://localhost:3000");
